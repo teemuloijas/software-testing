@@ -1,0 +1,9 @@
+{
+    "all":true,
+    "include": [
+        "node_modules/COMP.SE.200-2020-assignment/src/**.js"
+    ],
+    "exclude": [
+    ],
+    "excludeNodeModules": false
+}
