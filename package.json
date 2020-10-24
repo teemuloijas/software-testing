@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text node_modules/.bin/mocha ./test/array.test.js --timeout=3000",
+    "test": "nyc --reporter=html --reporter=text node_modules/.bin/mocha ./test/array.test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
@@ -21,7 +21,8 @@
   "dependencies": {
     "COMP.SE.200-2020-assignment": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
     "coveralls": "^3.1.0",
-    "nyc": "^15.0.0-beta.0"
+    "esm": "^3.2.25",
+    "nyc": "^15.1.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",

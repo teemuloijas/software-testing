@@ -1,7 +1,7 @@
 {
     "all":true,
     "include": [
-        "src/**.js"
+        "COMP.SE.200-2020-assignment/src/**.js"
     ],
     "exclude": [
     ]
