@@ -1,9 +1,8 @@
 {
     "all":true,
     "include": [
-        "COMP.SE.200-2020-assignment/src/**.js"
+        "src/**.js"
     ],
     "exclude": [
-    ],
-    "excludeNodeModules": false
+    ]
 }
