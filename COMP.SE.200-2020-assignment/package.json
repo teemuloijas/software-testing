@@ -1,0 +1,38 @@
+{
+  "_from": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+  "_id": "software-testing-assignment@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/COMP.SE.200-2020-assignment",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "COMP.SE.200-2020-assignment@git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+    "name": "COMP.SE.200-2020-assignment",
+    "escapedName": "COMP.SE.200-2020-assignment",
+    "rawSpec": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+    "saveSpec": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+    "fetchSpec": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git#1c847d39175092e77a34df7d4e40ee6a9d72a14d",
+  "_spec": "COMP.SE.200-2020-assignment@git://github.com/tgcslearningtech/COMP.SE.200-2020-assignment.git",
+  "_where": "D:\\Koulutiedostot\\TTY\\Software testing\\Assignment 2\\software-testing",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "## Purpose of this repository",
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "index.js",
+  "name": "software-testing-assignment",
+  "scripts": {
+    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
