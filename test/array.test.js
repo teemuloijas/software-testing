@@ -22,22 +22,22 @@ describe("Array Test Suite", () => {
         it("Should have all values accepted", () => {
             expect(filter([1,1,1,1,1], n => n)).to.eql([1,1,1,1,1]);
         });
-        // it("Should have all values rejected", () => {
-        //     expect(filter([0,0,0,0,0], n => n)).to.eql([]);
-        // });
+        it("Should have all values rejected", () => {
+            expect(filter([0,0,0,0,0], n => n)).to.eql([]);
+        });
         it("Should have every other value accepted", () => {
             expect(filter([1,0,1,0,1], n => n)).to.eql([1,1,1]);
         });
     });
-    // describe("Function: Map", () => {
-    //     it("Should double numbers", () => {
-    //         expect(map());
-    //     });
-    //     it("Should square numbers", () => {
-    //         expect(map());
-    //     });
-    //     it("Should map object properties", () => {
-    //         expect(map());
-    //     });
-    // });
+    describe("Function: Map", () => {
+        it("Should double numbers", () => {
+            expect(map([4,8], a => a*2));
+        });
+        it("Should square numbers", () => {
+            expect(map([4,8], a => a*a));
+        });
+        it("Should map object properties", () => {
+            expect(map({b:1, b:2}, a => a.b));
+        });
+    });
 });
