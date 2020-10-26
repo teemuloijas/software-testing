@@ -4,7 +4,7 @@ import countBy from 'COMP.SE.200-2020-assignment/src/countBy.js';
 const assert = chai.assert;
 const expect = chai.expect;
 
-describe("Number Test Suite", () => {
+describe("Object Test Suite", () => {
     describe("Function: CountBy", () => {
         it("Should count by number", () => {
             expect(countBy([{ a: 1 }, { a: 0 }, { a: 1 }], u => u.a)).to.eql({ 1: 2, 0: 1 });
