@@ -1,9 +1,9 @@
 import chai from "chai";
-import add from 'COMP.SE.200-2020-assignment/src/add.js';
-import difference from 'COMP.SE.200-2020-assignment/src/difference.js';
-import divide from 'COMP.SE.200-2020-assignment/src/divide.js';
-import toInteger from 'COMP.SE.200-2020-assignment/src/toInteger.js';
-import toNumber from 'COMP.SE.200-2020-assignment/src/toNumber.js';
+import add from 'lib/src/add.js';
+import difference from 'lib/src/difference.js';
+import divide from 'lib/src/divide.js';
+import toInteger from 'lib/src/toInteger.js';
+import toNumber from 'lib/src/toNumber.js';
 
 const assert = chai.assert;
 const expect = chai.expect;

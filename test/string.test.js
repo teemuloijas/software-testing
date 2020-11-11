@@ -1,7 +1,7 @@
 import chai from "chai";
-import toString from 'COMP.SE.200-2020-assignment/src/toString.js';
-import upperFirst from 'COMP.SE.200-2020-assignment/src/upperFirst.js';
-import words from 'COMP.SE.200-2020-assignment/src/words.js';
+import toString from 'lib/src/toString.js';
+import upperFirst from 'lib/src/upperFirst.js';
+import words from 'lib/src/words.js';
 
 const assert = chai.assert;
 const expect = chai.expect;

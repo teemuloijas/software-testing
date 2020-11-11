@@ -1,7 +1,7 @@
 import chai from "chai";
-import every from 'COMP.SE.200-2020-assignment/src/every.js';
-import filter from 'COMP.SE.200-2020-assignment/src/filter.js';
-import map from 'COMP.SE.200-2020-assignment/src/map.js';
+import every from 'lib/src/every.js';
+import filter from 'lib/src/filter.js';
+import map from 'lib/src/map.js';
 
 const assert = chai.assert;
 const expect = chai.expect;

@@ -1,5 +1,5 @@
 import chai from "chai";
-import eq from 'COMP.SE.200-2020-assignment/src/eq.js';
+import eq from 'lib/src/eq.js';
 
 const assert = chai.assert;
 

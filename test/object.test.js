@@ -1,5 +1,5 @@
 import chai from "chai";
-import countBy from 'COMP.SE.200-2020-assignment/src/countBy.js';
+import countBy from 'lib/src/countBy.js';
 
 const assert = chai.assert;
 const expect = chai.expect;
