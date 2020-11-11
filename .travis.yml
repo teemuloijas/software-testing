@@ -10,3 +10,4 @@ script:
 
 after_script: 
   - npm run coverage
+  - npm run coveralls
