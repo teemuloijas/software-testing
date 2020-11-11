@@ -21,18 +21,17 @@ describe("Number Test Suite", () => {
         });
     });
 
-    //TODO: CHECK THIS FUNCTION :D
-    // describe("Function: Difference", () => {
-    //     it("Should subtract two positive numbers", () => {
-    //         expect(difference([6, 4.5])).to.equal(1.5);
-    //     });
-    //     it("Should subtract two negative numbers", () => {
-    //         expect(difference(-6, 4.5)).to.equal(-1.5);
-    //     });
-    //     it("Should subtract a positive number from negative", () => {
-    //         expect(difference(-5, 5)).to.equal(-10);
-    //     });
-    // });
+    describe("Function: Difference", () => {
+        it("Should subtract two positive numbers", () => {
+            expect(difference([2, 1], [2, 3])).to.equal([1]);
+        });
+        it("Should subtract two negative numbers", () => {
+            expect(difference([2, 3], [2, 3])).to.equal([]);
+        });
+        it("Should subtract a positive number from negative", () => {
+            expect(difference([2, 1], [3, 4])).to.equal([2, 1]);
+        });
+    });
     describe("Function: Divide", () => {
         it("Should divide two positive numbers", () => {
             expect(divide(6, 8)).to.equal(0.75);
