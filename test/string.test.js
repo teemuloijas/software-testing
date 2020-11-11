@@ -1,7 +1,7 @@
-import chai from "chai";
-import toString from 'lib/src/toString.js';
-import upperFirst from 'lib/src/upperFirst.js';
-import words from 'lib/src/words.js';
+const chai = require('chai');
+const toString = require('../lib/src/toString.js').default;
+const upperFirst = require('../lib/src/upperFirst.js').default;
+const words = require('../lib/src/words.js').default;
 
 const assert = chai.assert;
 const expect = chai.expect;

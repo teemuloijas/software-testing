@@ -1,9 +1,9 @@
-import chai from "chai";
-import add from 'lib/src/add.js';
-import difference from 'lib/src/difference.js';
-import divide from 'lib/src/divide.js';
-import toInteger from 'lib/src/toInteger.js';
-import toNumber from 'lib/src/toNumber.js';
+const chai = require('chai');
+const add = require('../lib/src/add.js').default;
+const difference = require('../lib/src/difference.js').default;
+const divide = require('../lib/src/divide.js').default;
+const toInteger = require('../lib/src/toInteger.js').default;
+const toNumber = require('../lib/src/toNumber.js').default;
 
 const assert = chai.assert;
 const expect = chai.expect;

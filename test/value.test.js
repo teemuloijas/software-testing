@@ -1,5 +1,5 @@
-import chai from "chai";
-import eq from 'lib/src/eq.js';
+const chai = require('chai');
+const eq = require('../lib/src/eq.js').default;
 
 const assert = chai.assert;
 

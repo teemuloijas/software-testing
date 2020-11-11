@@ -1,7 +1,9 @@
-import chai from "chai";
-import every from 'lib/src/every.js';
-import filter from 'lib/src/filter.js';
-import map from 'lib/src/map.js';
+const chai = require('chai');
+const every = require('../lib/src/every.js').default;
+const filter = require('../lib/src/filter.js').default;
+const map = require('../lib/src/map.js').default;
+
+console.log({ every });
 
 const assert = chai.assert;
 const expect = chai.expect;

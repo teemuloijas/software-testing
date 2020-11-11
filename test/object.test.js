@@ -1,5 +1,5 @@
-import chai from "chai";
-import countBy from 'lib/src/countBy.js';
+const chai = require('chai');
+const countBy = require('../lib/src/countBy.js').default;
 
 const assert = chai.assert;
 const expect = chai.expect;
