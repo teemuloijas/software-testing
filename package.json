@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage",
+    "coverage": "jest --coverage --collectCoverageFrom=lib/src/*js",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "babel": "babel COMP.SE.200-2020-assignment --out-dir lib --plugins=@babel/plugin-transform-modules-commonjs"
   },
