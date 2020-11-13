@@ -38,7 +38,7 @@ describe("String Test Suite", () => {
             expect(words("apples")).to.eql(["apples"]);
         });
         it("Should should return capitalized Apples", () => {
-            expect(words("Apples & oranges")).to.eql(["apples", "oranges"]);
+            expect(words("apples & oranges")).to.eql(["apples", "oranges"]);
         });
         it("Should return multiple words", () => {
             expect(words("apples, oranges & bananas")).to.eql(["apples", "oranges", "bananas"]);
