@@ -4,8 +4,9 @@ const difference = require('../lib/src/difference.js').default;
 const divide = require('../lib/src/divide.js').default;
 const toInteger = require('../lib/src/toInteger.js').default;
 const toNumber = require('../lib/src/toNumber.js').default;
+const ceil = require('../lib/src/ceil.js').default;
+const clamp = require('../lib/src/clamp.js').default;
 
-const assert = chai.assert;
 const expect = chai.expect;
 
 describe("Number Test Suite", () => {
@@ -63,6 +64,22 @@ describe("Number Test Suite", () => {
         });
         it("Should convert infinity to number", () => {
             expect(toNumber(Infinity)).to.equal(Infinity);
+        });
+    });
+    describe("Function: Ceil", () => {
+        it("Should round up to next integer", () => {
+            expect(ceil(4.006)).to.equal(5);
+        });
+        it("Should round up to next thousand", () => {
+            expect(ceil(6040, -2)).to.equal(6100);
+        });
+    });
+    describe("Function: Clamp", () => {
+        it("Should clamp to lower bound", () => {
+            expect(clamp(-10, -5, 5)).to.equal(-5);
+        });
+        it("Should clamp to upper bound", () => {
+            expect(clamp(10, -5, 5)).to.equal(5);
         });
     });
 });
