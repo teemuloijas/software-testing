@@ -24,13 +24,13 @@ describe("Number Test Suite", () => {
 
     describe("Function: Difference", () => {
         it("Should subtract two positive numbers", () => {
-            expect(difference([2, 1], [2, 3])).to.equal([1]);
+            expect(difference([2, 1], [2, 3])).to.eql([1]);
         });
         it("Should subtract two negative numbers", () => {
-            expect(difference([2, 3], [2, 3])).to.equal([]);
+            expect(difference([2, 3], [2, 3])).to.eql([]);
         });
         it("Should subtract a positive number from negative", () => {
-            expect(difference([2, 1], [3, 4])).to.equal([2, 1]);
+            expect(difference([2, 1], [3, 4])).to.eql([2, 1]);
         });
     });
     describe("Function: Divide", () => {

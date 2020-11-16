@@ -46,7 +46,7 @@ describe("Array Test Suite", () => {
     });
     describe("Function: Chunk", () => {
         it("Should return one chunk", () => {
-            expect(chunk(['a', 'b', 'c', 'd'], 2)).to.eql([['a', 'b'], ['c', 'd']]);
+            expect(chunk(['a', 'b', 'c', 'd'], 4)).to.eql([['a', 'b', 'c', 'd']]);
         });
         it("Should return 2 chunks", () => {
             expect(chunk(['a', 'b', 'c', 'd'], 3)).to.eql([['a', 'b', 'c'], ['d']]);
