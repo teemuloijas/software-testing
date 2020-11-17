@@ -11,7 +11,7 @@ describe("Object Test Suite", () => {
             expect(countBy([{ a: 1 }, { a: 0 }, { a: 1 }], u => u.a)).to.eql({ 1: 2, 0: 1 });
         });
         it("Should count by string", () => {
-            expect(countBy([{ a: 'a' }, { a: 'b' }, { a: 'c' }], u => u.a)).to.eql({ a: 1, b: 2, c: 3 });
+            expect(countBy([{ a: 'a' }, { a: 'b' }, { a: 'c' }], u => u.a)).to.eql({ a: 1, b: 1, c: 1 });
         });
         it("Should count by empty", () => {
             expect(countBy([], u => u.a)).to.eql({});
